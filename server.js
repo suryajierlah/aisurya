@@ -33,7 +33,7 @@ const promptForApiKey = async () => {
     });
 
     return new Promise((resolve) => {
-        readline.question("\nAPI Key not found!\nGet your API Key at: https://aistudio.google.com/app/apikey\nEnter your Gemini API Key: ", (apiKey) => {
+        readline.question("AIzaSyC-Uxw7jIi1EeT2kJ8uDC25MgKhXMUVV0I", (apiKey) => {
             readline.close();
             saveApiKey(apiKey);
             console.log("\n✓ API Key saved successfully!\n");
