@@ -91,7 +91,7 @@ const initializeServer = async () => {
         console.log("=======================================");
         console.log("            GEMINI AI TOOLS            ");
         console.log("=======================================");
-        console.log("Server is running at: http://localhost:3000");
+        console.log("Server is running at: https://suryajierlah.github.io/aisurya/");
         console.log("Use this tool to generate AI content.\n");
     });
 };
